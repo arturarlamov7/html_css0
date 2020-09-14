@@ -54,5 +54,5 @@ game.platform = {
 };
 
 window.addEventListener("load", () => {
-	game.star();
+	game.start();
 });	
