@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title> Geolocation API </title>
+	<script>
+		function checkSupport() {
+			if (navigator.Geolocation) {
+				document.body.innerHTML = "Ваш браузер подерживает HTML5 Geolocation API!"
+			}
+			else {
+				document.body.innerHTML = "Ваш браузер НЕ подерживает HTML5 Geolocation API!"
+			} 
+		}
+
+		window.addEventListener("load", checkSupport, true);
+		
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
