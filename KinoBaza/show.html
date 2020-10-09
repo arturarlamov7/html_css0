@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Фильмы</title>
+	<title>Фильм Интерстеллар</title>
 	<meta name="description" content="КиноБаза - это портал о кино" />
 	<meta name="keywords" content="фильмы, фильмы онлайн, hd" />
 	<link rel="stylesheet" href="assets/css/style.css">
@@ -14,7 +14,7 @@
 		<div class="header">
 			<div class="logo">
 				<div class="logo_text">
-					<h1><a href="index.html">Кинобаза</a></h1>
+					<h1><a href="index.html">КиноБаза</a></h1>
 					<h2>Кино - наша страсть!</h2>
 				</div>
 			</div>
@@ -23,21 +23,21 @@
 
 				<ul class="menu">
 					<li><a href="index.html">Главная</a></li>
-					<li class="selected"><a href="films.html">Фильмы</a></li>
+					<li class="selected"><a href="films.html">Фильмы</a></a></li>
 					<li><a href="#">Сериалы</a></li>
 					<li><a href="rating.html">Рейтинг фильмов</a></li>
 					<li><a href="contact.html">Контакты</a></li>
 				</ul>
-				
+		
 			</div>
-
+			
 		</div>
 
 
 		<div class="site_content">
-
+			
 			<div class="sidebar_container">
-
+				
 				<div class="sidebar">
 					<h2>Поиск</h2>
 					<form method="post" action="#" id="search_form">
@@ -75,40 +75,71 @@
 						<li><a href="#">Безумный макс</a><span class="rating_sidebar">7.5</span></li>
 						<li><a href="#">Облачный атлас</a><span class="rating_sidebar">7.4</span></li>
 					</ul>
-				</div>
-				
+				</div>	
+							
 			</div>
 
 			<div class="content">
 				
-				<div class="info_film">
+				<h1>Интерстеллар</h1>
+
+				<iframe width="560" height="315" src="https://youtube.com/embed/R5KHoE_8dgo?showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+
+				<div class="info_film_page">
+					<span class="label">рейтинг: </span><span class="value">8.1 / 10</span>
+					<span class="label">год: </span><span class="value">2014</span>
+					<span class="label">режиссер: </span><span class="value">Кристофер Нолан</span>
+				</div>
+				<hr>
+				<h2>Описание Интерстеллар</h2>
+				<div class="description_film">
 					<img src="assets/img/inter.png">
 					Когда засуха приводит человечество к продовольственному кризису, коллектив исследователей и учёных отправляются сквозь червоточину (которая предположительно соединяет области пространства времени через большое расстояние) в путешествие, чтобы превзойти прежние ограничения для космических путешествий человека и переселить человечество на другую планету.
-					<div class="button"><a href="show.html">Смотреть</a></div>
 				</div>
 
-				<div class="info_film">
-					<img src="assets/img/max.png">
-					Вскоре после отомщения за смерть жены и сына, Макс Рокатански покинул ряды "Основного силового патруля" и уехал в глушь, где скитается в одиночестве, пока мир медленно падает впоследствии нефтяного кризиса и глобальной войны. Не имея ничего, кроме своей машины "Перехватчик", Максу предстоит научиться, как выжить в пост-апокалиптической пустоши и сражаться с жестокими, безжалостными воинами, которые населают её.
-					<div class="button"><a href="#">Смотреть</a></div>
+
+
+				<hr>
+				<h2>Отзывы об Интерстеллар</h2>
+
+				<div class="reviews">
+					<div class="review_name">
+						Сергей
+					</div>
+					<div class="review_text">
+						Отличный фильм, 3 часа пролетели не заметно.
+					</div>					
 				</div>
 
-				<div class="info_film">
-					<img src="assets/img/matrix.png">
-					Мир матрицы - это иллюзия, существующая только в бесконечном сне обреченного человечества. Холодный мир будущего, в котором люди - всего лишь батарейки в компьютерных системах.
-					<div class="button"><a href="#">Смотреть</a></div>
+				<div class="reviews">
+					<div class="review_name">
+						Дмитрий
+					</div>
+					<div class="review_text">
+						После фильма начало, я с нетерпением ждал еще работ от Кристофера Нолана. Интерстеллар меня впечатлил.
+					</div>
 				</div>
 
-				<div class="info_film">
-					<img src="assets/img/cloud.png">
-					Шесть историй - пять реинкарнаций, происходящих в разное время, тесно переплетаются между собой...
-					<div class="button"><a href="#">Смотреть</a></div>
+				<div class="reviews">
+					<div class="review_name">
+						SuperGigaOleg228
+					</div>
+					<div class="review_text">
+						Фильм класс..... лайк!!!!!
+					</div>
+				</div>
+
+				<div class="send">
+					<form method="post" action="#" id="review">
+						<input type="text" name="review_name" placeholder="ваше имя">
+						<textarea name="review_text"></textarea>
+						<input class="btn" type="submit" value="отправить">
+					</form>
 				</div>
 
 			</div>
-			
 		</div>
-
 	<div class="footer">
 		<p>
 			<a href="index.html">Главная</a> |
@@ -119,7 +150,7 @@
 		</p>
 		<p>kinopoisk.ru</p>
 	</div>
-	
+
 	</div>
 	
 </body>
